@@ -1,0 +1,1057 @@
+*{
+  margin: 0;
+    padding: 0;
+}
+body{
+  display: flex;
+    align-items: start;
+    width:100% ;
+    height:100vh;
+    position: relative;
+    overflow-x: hidden;
+    
+    }
+
+  .centerbody{
+  border: 1px solid red;
+  width:40%;
+  height: 100vh;
+  margin-left:12%;
+  overflow-y: scroll;
+  border: none;
+  overflow-x: hidden;
+  }
+
+
+
+
+
+
+  ::-webkit-scrollbar{
+    background-color:#F1F1F1;
+
+  }
+ ::-webkit-scrollbar-thumb{
+   border: 10px solid #A8A8A8;
+
+ }
+.centernav{
+  
+  overflow-y: scroll;
+z-index: 1;
+border: 1px solid transparent;
+width:36.40%;
+height: 60px;
+position: fixed;
+background-color: #fff;
+
+}
+.messagetext{
+  position: absolute;
+  margin-top:15px;
+  margin-left: 15px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+ letter-spacing: normal;
+  font-weight:500;
+ font-size:20px;
+   color: #000;
+}
+
+#setting{
+  
+ position: absolute;
+ 
+ 
+}
+.settinghover{
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top:4%;
+  border: 1px solid transparent;
+width:30px ;
+height: 25px;
+position: absolute;
+right: 0;
+margin-right:15% ;
+
+}
+.settinghover:hover{
+  background-color:
+  rgba(0, 0, 0, 0.03)
+
+
+}
+.emailhover:hover{
+  background-color:
+  rgba(0, 0, 0, 0.03)
+
+
+}
+#emailicon{
+  font-size:20px;
+  
+  
+position: absolute;
+
+}
+#plus{
+  font-size:10px ;
+position: absolute;
+margin-left:75%;
+margin-top:12px;
+border-radius:50%;
+background-color: #fff;
+font-weight: 700;
+
+
+}
+.emailhover{
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right:10px ;
+  margin-top: 15px;
+  right: 0;
+position: absolute;
+border: 1px solid  transparent;
+width:30px ;
+height:25px;
+
+
+}
+.rightside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border:1px solid #A8A8A8;
+width: 600px;
+height: 100vh;
+margin-right: 2rem;
+
+
+}
+.centerright{
+  border: none;
+  align-items: center;
+  text-align: center;
+border: 1px solid transparent ;
+width:400px;
+height: 200px;
+
+}
+.select{
+  color: #000;
+font-weight: 800;
+font-size: 31px; 
+ margin-top: 20px;
+ font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+.choose{
+  margin-top:10px;
+  margin-left:9%;
+  font-size: 15px;
+  font-family: 400px;
+
+}
+.newone{
+margin-right:14%;
+font-size: 15px;
+font-weight: 400;
+
+}
+.buttonmsg{
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   color: #fff;
+  font-weight:500;
+  font-size: 16px;
+  border: none;
+ border-radius: 20px;
+  height:45px;
+  margin-right:25%;
+  width:150px ;
+  margin-top:15px;
+  background-color:rgb(26, 140, 216)
+
+}
+.buttonmsg:hover{
+ background-color:
+ rgb(0, 0, 238)
+ ;
+
+}
+
+
+.centermsg1{
+  margin-top:5%;
+border: 1px solid red;
+width:100% ;
+height:80px;
+border: none;
+
+}
+.centerpost{
+  border: none;
+position: relative;
+margin-top:17%;
+border:1px solid transparent;
+width: 100%;
+height:700px ;
+
+}
+#inputtext{
+ 
+padding-left: 10px;
+  box-sizing: border-box;
+ border-radius:20px; 
+ width:90%; 
+margin-top: 10px;
+height:40px;
+margin-left:15px;
+padding-left:25px;
+border: 1px solid  #A8A8A8;
+outline-color: blue;
+
+}
+#inputtext::placeholder{
+padding-left:15px;
+
+}
+
+
+.searchicon{
+position: absolute;
+
+ margin-top:20px;
+  margin-left:7%;
+ left: 0;
+ 
+
+  width:15px;
+
+
+}
+.leftside{
+    
+    border:1px solid transparent;
+    height: 100vh;
+    width: 125px;
+    position: absolute;
+    left: 0;
+    top: 0;
+     overflow-y:scroll;
+     
+     overflow-x: hidden;
+     position: fixed;
+    
+     
+  }
+  .xlogo{
+    border: 1px solid red ;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  
+  
+  
+  #logox{
+    margin-left: 8px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 25px; 
+    color: black;
+  
+  }
+  
+  .xlogo:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  
+  }
+  #home1{
+    margin-left:8px;
+    font-size: 20px;
+    margin-top: 10px;
+  position: absolute;
+  }
+  .home{
+    position: relative;
+    border: 1px solid red ;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left:40px ;
+    border-radius: 50%;
+    border: none;
+  }
+  .homegreendot{
+    position: absolute;
+  width: 8px;
+  margin-left: 28px;
+  margin-top: 5px;
+  
+  }
+  
+  .home:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  }
+  
+  .homecontent{
+    display: none;
+    margin-left: -5%;
+    padding-left: 5px;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:40px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:40px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+  
+  
+  }
+  .home:hover .homecontent{
+  
+    display: block;
+  }
+  
+  
+  .search{
+    
+    
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+  }
+  #search1{
+    margin-left: 8px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+  }
+  .search:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  }
+  .searchcontent{
+    padding-left: 5px;
+    margin-left: -5%;
+    display: none;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:50px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:20px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+    
+  
+  }
+  .search:hover  .searchcontent{
+  display: block;
+  
+  }
+  .bell{
+  
+    border: 1px solid red ;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+    border: none;
+  
+  }
+  #bell1{
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+  
+  }
+  .bell:hover{
+    
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  }
+  .bellcontent{
+    padding-left: 5px;
+    margin-left: -10%;
+    display: none;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:75px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:20px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+    
+  
+  }
+  .bell:hover .bellcontent{
+  
+    display: block;
+  }
+  .message{
+    border: 1px solid red ;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+    border: none;
+  }
+  #message1{
+    margin-left: 8px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+  
+  }
+  .message:hover{
+    
+    background-color:
+    rgba(0, 0, 0, 0.03)
+      
+  
+  }
+  .messagecontent{ 
+     margin-left: -10%;
+    display: none;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:60px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:20px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+    
+  }
+  
+  .message:hover  .messagecontent{
+     display: block;
+  
+  }
+  .grok{
+    border: 1px solid transparent;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+    
+  
+  }
+  .grok1{
+    position: absolute;
+  width: 23px;
+  margin-top: 10px;
+  margin-left:8px;
+  
+    
+  }
+  .grok:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  }
+  .grok:hover .grokcontent{
+     display: block;
+  
+  }
+  .grokcontent{
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:35px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:40px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+    margin-left:2px;
+    display: none;
+    border: none;
+  
+  }
+  .list{
+    border: 1px solid red ;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+  border: none;
+    
+  }
+  #list1{
+    margin-left: 8px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 20px;
+  
+  
+  
+  }
+  .list:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  
+  }
+  
+  .listcontent{
+    display: none;
+    padding-left: 5px;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:30px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:20px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+    
+  
+  }
+  .list:hover .listcontent{
+  
+    display: block;
+  }
+  
+  
+  .bookmark{
+    border: 1px solid red ;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+  border: none;
+  
+  }
+  #bookmark1{
+    margin-left: 11px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 20px; 
+  }
+  
+  .bookmark:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  
+  }
+  .bookmarkcontent{
+  
+    display: none;
+    padding-left: 5px;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:70px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:20px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+   left:21px;
+  position: absolute;
+  }
+  .bookmark:hover  .bookmarkcontent{
+  display: block;
+  
+  }
+  .community{
+  
+    border: 1px solid red ;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+   border: none;
+  }
+  #community1{
+  
+    margin-left: 8px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 20px; 
+  }
+  .communitycontent{
+  display: none;
+    border: none;
+    padding-left: 5px;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:70px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:10px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+   left:21px;
+  position: absolute;
+  }
+  .community:hover   .communitycontent{
+  
+  display: block;
+  
+  }
+  .community:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  
+  }
+  .Premium{
+   
+    border: 1px solid transparent;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+  
+  
+  }
+  #Premium1{
+  
+    margin-left:8px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 25px; 
+    color: black;
+  
+  }
+  
+  .Premiumcontent{
+    display: none;
+    padding-left: 5px;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:70px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:10px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+   left:21px;
+  position: absolute;
+  
+  }
+  .Premium:hover .Premiumcontent{
+  display: block;
+  
+  
+  }
+  .Premium:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  
+  }
+  .profile{
+  border: none;
+    border: 1px solid transparent ;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+  
+  }
+  #profile1{
+    margin-left:8px;
+    font-size: 25px;
+    margin-top: 8px;
+    font-size: 25px; 
+    color: black;
+  
+  
+  }
+  .profilecontent{
+    display: none;
+    padding-left: 5px;
+    position: absolute;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:40px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:10px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+   left:40px;
+  position: absolute;
+  
+  }
+  
+  .profile:hover .profilecontent{
+  
+    display: block;
+  }
+  .profile:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  
+  }
+  .more{
+    border: 1px solid transparent;
+    width: 40px;
+    height: 40px;
+    margin-top:20px ;
+    margin-left:40px ;
+    border-radius: 50%;
+  
+  
+  }
+  .more1{
+    position: absolute;
+  width: 23px;
+  margin-top: 10px;
+  margin-left:8px;
+  
+  
+  }
+  
+  .more:hover {
+  
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+  }
+  
+  
+  
+  .morecontent{
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:35px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    margin-top:40px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+    margin-left:2px;
+    display: none;
+  
+  }
+  .more:hover  .morecontent{
+  
+    display: block;
+  }
+  .post{
+   
+  
+  }
+  .post1{
+    border-radius: 50%;
+    position: absolute;
+    width: 70px;
+    margin-top:13px;
+    margin-left: 24px;
+  
+  }
+  .post1:hover{
+  color: red;
+  
+  }
+  .postcontent{
+    position: absolute;
+    margin-top: 80px;
+    margin-left:35px;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:35px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+    padding-left: 5px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+    display: none;
+  
+  
+  }
+  .post:hover  .postcontent{
+  
+    display: block;
+  }
+  .account{
+    border: 1px solid red ;
+    width: 70px;
+    height: 70px;
+    margin-top:100px ;
+    margin-left:30px ;
+    border-radius: 50%;
+   border: none;
+   display: flex;
+   justify-content: center;
+  }
+  .account1{
+    position: absolute;
+    width: 40px;
+    margin-top: 10%;
+    
+    border-radius: 50%;
+    
+  }
+  .accountcontent{
+  
+    position: absolute;
+    margin-top: -10px;
+    font-family: sans-serif;
+    border:1px solid red  ;
+    width:50px;
+    height:15px;
+    background-color: black;
+    color:#fff;
+   padding-left: 5px;
+    font-size: small;
+    border-radius: 2px;
+    border: none;
+    display:none;
+  
+  }
+  
+  .account:hover .accountcontent{
+  
+    display: block;
+  }
+  
+  
+  
+  
+  .account:hover{
+  
+    background-color: #E7E7E8;
+  
+  
+  }    
+  
+  .x{
+width: 30px;
+margin-left:8%;
+margin-top: 10px;
+border-radius: 50px;
+
+
+
+  }
+.msg1image{
+margin-top:5px ;
+width:40px;
+border-radius: 50%;
+cursor: pointer;
+
+}
+
+.danieltext{
+  font-weight: 700;
+  font-size:15px;
+  margin-left: 5px;
+  position: absolute;
+ margin-top:5px;
+ font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.bluetick{
+  position: absolute;
+width:15px;
+margin-left:28%;
+margin-top: 9px;
+
+}
+.danieltext2{
+  cursor: pointer;
+  font-family:serif;
+  position: absolute;
+  margin-left: 32%;
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(83, 100, 113)
+
+}
+.danieltext2:hover{
+transform: scale(1.06);
+
+}
+.thumbs{
+width: 20px;
+
+}
+.danieltext3{
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+ font-weight: 400; 
+font-size: 15px;
+
+}
+.bluetick2{
+  position: absolute;
+  width:15px;
+  margin-left:13%;
+  margin-top: 9px;
+  
+}
+.bodtext2{
+  cursor: pointer;
+  font-family:serif;
+  position: absolute;
+  margin-left:18%;
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(83, 100, 113)
+
+
+}
+.bodtext2:hover{
+
+transform: scale(1.06);
+}
+
+.bluetick3{
+  position: absolute;
+  width:15px;
+  margin-left:20%;
+  margin-top:9px;
+
+
+}
+.bankstext2{
+  cursor: pointer;
+  font-family:serif;
+  position: absolute;
+  margin-left:25%;
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(83, 100, 113)
+
+}
+.bankstext2:hover{
+  transform: scale(1.06);
+
+}
+.bankstelegram{
+color: #1D9BF0;
+margin-left:10px ;
+
+
+}
+.bankstelegram:hover{
+text-decoration: underline;
+
+
+}
+.darkman2{
+  cursor: pointer;
+  font-family:serif;
+  position: absolute;
+  margin-left:52%;
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(83, 100, 113)
+
+
+}
+.darkman2:hover{
+transform: scale(1.06);
+
+}
+.bluetick4{
+  position: absolute;
+  width:15px;
+  margin-left:47%;
+  margin-top: 9px;
+
+
+}
+
+.mbahtext2{
+  cursor: pointer;
+  font-family:serif;
+  position: absolute;
+  margin-left:20%;
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(83, 100, 113)
+
+
+
+}
+
+.mbahtext2:hover{
+transform: scale(1.06);
+
+}
+.bluetick5{
+  position: absolute;
+  width:15px;
+  margin-left:15%;
+  margin-top: 9px;
+
+
+}
+.centermsg1:hover{
+ 
+  background-color: #F7F9F9;
+}
+
+

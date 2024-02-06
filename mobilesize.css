@@ -1,0 +1,108 @@
+*{
+ margin:0;
+ padding: 0;
+
+
+}
+.allwrapper{
+border: 1px solid red;
+ width: 100%;
+ height: 100vw;
+
+
+
+}
+ .nave{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+border: 2px solid red;
+   width: 100%;
+    height: 70px;
+
+ }
+ .centerbody{
+  border: 1px solid red;
+   width:100%;
+   height: 100vw;
+
+
+ }
+ .img{
+    margin-left: 10px;
+    
+width: 40px;
+border-radius: 50%;
+
+ }
+#x{
+font-size: 40px;
+
+
+}
+#setting{
+margin-right:10px ;
+font-size:30px ;
+
+
+}
+.nave2{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid red;
+   width: 100%;
+    height: 70px;
+      margin-top:6.5%;
+
+
+
+
+}
+.nave3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border: 2px solid red;
+   width: 100%;
+    height: 70px;
+      margin-top:13%;
+
+
+}
+.post{
+  margin-left:40%;
+
+}
+.videotv{
+    margin-left: 10%;
+    width:80% ;
+border-radius:20px ;
+margin-top:10%;
+
+}
+
+.tvc1{
+    border-radius: 50%;
+    margin-left:10px ;
+    position: absolute;
+   margin-top: 10px;
+width: 50px;
+
+
+
+}
+.tvctext1{
+
+
+
+    
+}
+
+

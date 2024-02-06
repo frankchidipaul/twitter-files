@@ -1,0 +1,1568 @@
+*{
+    padding:0 ;
+    margin:0 ;
+    
+    }
+
+
+
+    body{
+    
+    align-items: start;
+    width:100% ;
+    height:100vw;
+    position: relative;
+    overflow-x: hidden;
+    
+    }
+    
+    #centerbody{
+      border: none;
+      border: 1px solid #CFD9DE ;
+      height:120%;
+      margin-left:8rem ;
+      margin-right:20rem ;
+ 
+      
+       
+    
+    
+    }
+    
+    .centernav{
+    
+      z-index: 1;
+      position: fixed;
+      background-color:#fff;
+    border:1px solid transparent;
+    width: 58%;
+    height:120px ;
+    position: fixed;
+    margin-top:-5px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+    
+    
+    
+    
+    }
+    .notification{
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      position: absolute;
+      left: 0;
+      margin-top: -10%;
+      margin-left: 5%;
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+  .noti{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid transparent;
+    height: 50px;
+    width:210px;
+  border: none;
+  }
+  .noti:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+    
+  }
+    .all{
+    font-size: 15px;
+    font-weight:500;
+  font-family: sans-serif;
+  position: absolute;
+   left: 0;
+   margin-left:40%;
+   margin-top:10% ;
+   font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    
+    
+       
+    .verified{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight:500;
+    font-family: sans-serif;
+    position: absolute;
+     left: 0;
+     margin-left:40%;
+     margin-top:10% ;
+     font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+    }
+    .veri{
+      border: none;
+border: 1px solid  transparent;
+height: 50px;
+width:205px;
+position: absolute;
+bottom: 0;
+
+    }
+    .veri:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+
+    }
+    .mention{
+      font-size: 15px;
+      font-weight:500;
+    font-family: sans-serif;
+    position: absolute;
+     left: 0;
+      margin-left:40% ;
+     margin-top:10% ;
+     font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .men{
+      border: none;
+      bottom: 0;
+      right: 0;
+    position: absolute;
+       width: 210px;
+     height: 50px;
+    border: 1px solid  transparent;
+    margin-left: 5px;
+
+    }
+    .men:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+
+    }
+   
+    .Subscribe{
+      font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+    
+    }
+    #setting{
+  top: 0;
+  
+
+
+    }
+   .setting1{
+    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    margin-right: 10px;
+    top: 0;
+    margin-top: 10px;
+    right: 0;
+    position: absolute;
+     width: 30px;
+    height:30px;
+     border: 1px solid transparent;
+
+   }
+   .setting1:hover{
+    background-color:
+    rgba(0, 0, 0, 0.03)
+  
+
+   }
+
+   .notificationbar1{
+  border: 1px solid #CFD9DE;
+  width: 100%;
+  height:100px;
+  margin-top:18.50%;
+  background-color: #fff;
+  
+   }
+
+   .notificationbar1:hover{
+    
+    background-color:rgba(0, 0, 0, 0.03)
+    
+
+   }
+   #notificationbell{  
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px;
+    font-size:30px;
+   
+    
+  color:#1B9BF0;
+
+   }
+
+.belltext{
+ right: 60%;
+font-size: 15px;
+font-weight: 500;
+margin-top:6%;
+position: absolute;
+font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+
+}
+#belltext2{
+font-size: 15px;
+font-weight: 700;
+font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+cursor: pointer;
+}
+#belltext2:hover{
+ text-decoration-line: underline;
+ 
+
+}
+
+ #istalogo{
+  margin-top: -5px;
+  
+margin-left:40px;
+width: 60px;
+
+
+ }  
+
+.notificationbar2{
+  border: 1px solid #CFD9DE;
+  width: 100%;
+  height:100px;
+  border: none;
+  background-color: #fff;
+
+
+}
+
+.notificationbar2:hover{
+  background-color:rgba(0, 0, 0, 0.03)
+
+}
+.notificationbar6:hover{
+  background-color:rgba(0, 0, 0, 0.03)
+
+}
+#profileicon{
+  position: absolute;
+color: #1B9BF0;
+margin-top:10px;
+font-size:20px ;
+margin-left: 20px;
+border: none;
+}
+.davidimage{
+  position: absolute;
+width: 30px;
+border-radius: 50%;
+margin-left:5%;
+margin-top:5px;
+
+}
+.davidotext{
+position: absolute;
+margin-top:5%;
+margin-left:50px;
+font-size: 15px;
+font-weight: 700;
+font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.bluetick{
+  margin-top:5%;
+position: absolute;
+margin-left:9.50%;
+  width:15px;
+}
+.follow{
+position: absolute;
+margin-left: 12%;
+margin-top: 5%;
+font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.notificationbar3{
+  border: 1px solid #CFD9DE;
+  width: 100%;
+  height:100px;
+  
+  background-color: #fff;
+  
+  }
+  .bluetick2{
+    margin-top:5.2%;
+    position: absolute;
+    margin-left:15%;
+      width:15px;
+
+
+  }
+.yaba{
+  position: absolute;
+  margin-left:17%;
+  margin-top: 5%;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+.elon{
+  margin-top:5%;
+  position: absolute;
+  margin-left:12%;
+    width:15px;
+  }
+  
+.elon1{
+  position: absolute;
+  margin-left:14%;
+  margin-top: 5%;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+
+
+    .sub1{
+      margin-top: 10px;
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 13px;
+    
+    
+    }
+    .sub2{
+    
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 13px;
+    
+    
+    }
+    .btnsub{
+    margin-top: 15px;
+    margin-left: 20px;
+    height:32px ;
+    width:90px ;
+    border-radius: 20px;
+    color: #fff;
+      font-size:15px ;
+      font-weight: 700;
+    background-color: black;
+    border: none;
+    z-index: -1;
+    }
+   
+  .notificationbar4{
+  border: 1px solid #CFD9DE;
+
+  }
+   
+    
+  
+    
+   
+   
+    
+    
+    
+    
+   
+    
+  
+    .rightside{
+      border: 2px solid red;
+      height:110%;
+      width: 318px;
+      margin-left:58%;
+     top: 0;
+     position: absolute;
+    border: none;
+    }
+    .rightnav{
+      border: none;
+      z-index: 1;
+      border: 1px solid transparent;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
+    margin-top: -0.3%;
+    }
+    .inputtext{
+      margin-left:20px ;
+      height:40px ;
+      width:200px ;
+      border: none;
+      margin-top:1%;
+      position: absolute;
+      outline: none;
+     
+     
+     
+     }
+     ::placeholder{
+     font-size:20px ;
+     font-weight:400;
+     
+     
+     
+     
+     }
+     .inputright{
+      margin-top: 15px;
+      height: 40px;
+      width: 25%;
+      margin-left: 30px;
+      border-radius: 20px;
+      position: relative;
+      background-color: #EFF3FA;
+      border: none;
+      outline: none;
+      box-sizing: border-box;
+      padding-left:30px;
+      
+      
+      
+      
+      }
+      .inputright::placeholder{
+      color: black;
+      font-size: 15px;
+      padding-left:10px;
+      
+      }
+      #sach{
+      width: 30px;
+      position: absolute;
+      left: 0;
+      margin-top: 23px;
+      margin-left: 35px;
+      }
+    
+    
+    
+    .leftside{
+    
+      border: 3px solid green;
+      height: 100vh;
+      width: 125px;
+      position: absolute;
+      left: 0;
+      top: 0;
+       overflow-y:scroll;
+       border: none;
+       overflow-x: hidden;
+       position: fixed;
+      
+       
+    }
+   
+    
+    
+  
+    
+    
+    
+   
+    .right2{
+    margin-top: 25%;
+    border: 1px solid green;
+    height:120px ;
+    width:85%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #EFF3FA;
+    border: none;
+    padding-top: 10px;
+    
+    }
+    
+   
+    .right3{
+     
+      margin-top: 15px;
+    border: 1px solid red;
+     width: 85%;
+    background-color: #EFF3FA;
+    height: 400px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    border: none;
+    
+    }
+    .trend{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      margin-left: 10px;
+    
+      }
+    .rightsidesticky{
+    
+      
+      position: sticky;
+      top: 0;
+      margin-top: 40px;
+    border: 1px solid red;
+     width: 85%;
+    background-color: #EFF3FA;
+    height: 300px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    border: none;
+    
+    }
+    .whotofollow{
+      margin-top: 5px;
+      margin-left: 10px;
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color:
+      rgb(15, 20, 25)
+    }
+    
+    .instabloglogo{
+    width: 60px;
+    position: absolute;
+    left: 0;
+    margin-top: -5px;
+    
+    }
+    .Instablog9ja1{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      left: -5%;
+      margin-left: 25%;
+      margin-top:5%;
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 20px;
+       font-weight: 500;
+      color:
+      rgb(15, 20, 25)
+      
+    }
+    .verifiedbluetick{
+    
+      margin-left:60% ;
+     width: 20px;
+     position: absolute;
+     margin-top: 5%;
+     
+    
+    }
+    .instbloghover{
+      border: 1px solid #CFD9DE;
+    width: 100%;
+    height: 70px;
+    border: none;
+    
+    
+    }
+    .instbloghover:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+  
+    }
+    
+    .instatext{
+    position: absolute;
+    margin-top:18%;
+    margin-left:55px;
+    font-family: sans-serif;
+    font-size: 13px;
+    
+    }
+    .elonmusklogo{
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:5%;
+    left: 0;
+    margin-left:5% ;
+    }
+    .elonmusktext1{
+      left: -5%;
+      margin-left: 25%;
+      margin-top:2%;
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 20px;
+       font-weight: 500;
+      color:
+      rgb(15, 20, 25)
+    
+    }
+    .verifiedbluetickpage2{
+      margin-left:55% ;
+      width: 20px;
+      position: absolute;
+      margin-top: 2%;
+      
+    
+    }
+    .elonmusktext2{
+    
+      position: absolute;
+      margin-top:15%;
+      margin-left:54px;
+      font-family: sans-serif;
+      font-size: 13px;
+      
+    
+    }
+    
+    
+    .elonmuskhover{
+       margin-top: 20px;
+      border: 1px solid #CFD9DE;
+      width: 100%;
+      height: 70px;
+      border: none;
+      
+    }
+    .elonmuskhover:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+      
+    }
+    .binancehover{
+    
+      margin-top: 20px;
+      border: 1px solid #CFD9DE;
+      width: 100%;
+      height: 70px; 
+      border: none;
+    }
+    .binancelogo{
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      margin-top:5%;
+      left: 0;
+      margin-left:5% ;
+    
+    }
+    .binancetext1{
+      left: -5%;
+      margin-left: 25%;
+      margin-top:2%;
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 20px;
+       font-weight: 500;
+      color:
+      rgb(15, 20, 25)
+    
+    
+    }
+    .binancetext2{
+      position: absolute;
+      margin-top:15%;
+      margin-left:54px;
+      font-family: sans-serif;
+      font-size: 13px;
+    
+    }
+    .verifiedgoldtickpage{
+      margin-left:40% ;
+      width: 60px;
+      position: absolute;
+      
+    }
+    .binancehover:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    
+    
+    
+    
+    .right4:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .right4{
+    
+      padding-bottom: 10px;
+    }
+    
+    .right4child1{
+        margin-top: 10px;
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 13px;
+    
+    
+    }
+    .right4child2{
+    
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 20px;
+       font-weight: 500;
+       margin-top: 5px;
+    }
+    
+    .right4child3{
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 13px;
+      margin-top: 5px;
+    
+    }
+    .right5 {
+       padding-bottom:10px;
+      border: 1px solid red;
+      width: 100%;
+      height:75px;
+      margin-top: 20px;
+      border: none;
+    
+    }
+    .right6{
+     padding-top:2px;
+      
+      border: 1px solid red;
+      width: 100%;
+      height:75px;
+      margin-top: 20px;
+      border: none;
+    
+    }
+    .right6:hover{
+    
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .right5:hover{
+    
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    #dot{
+    position: absolute;
+    margin-left:30%;
+    
+    }
+    #dot1{
+    
+      position: absolute;
+      margin-left:6%;
+      
+    
+    }
+    #dot2{
+    
+    position: absolute;
+    margin-left:32%;
+    
+    }
+    .footer{
+      position: absolute;
+      border: none;
+  border: 1px solid red;
+  width:100vw;
+  height: 200px;
+
+    }
+     
+   
+    .btclogo{
+     width: 50px;border-radius: 50%;
+     margin-left: 20px;
+     margin-top: -1%;
+    z-index: -1;
+    
+    }
+    .btctext{
+      font-family: sans-serif;
+      z-index: -1;
+      font-size: 15px;
+       font-weight: 600;
+       
+       position: absolute;
+        margin-left: 10px;
+    
+    
+    
+    }
+    .btcorg{
+      position: absolute;
+      margin-left: 18%;
+    z-index: -1;
+      margin-top: -4%;
+        font-family: sans-serif;
+        font-size: 13px;
+    
+    
+    
+    }
+    .btcorg1{
+      position: absolute;
+    z-index: -1;
+      margin-left:40px;
+      
+        font-family: sans-serif;
+        font-size: 13px;
+       
+    
+    }
+     
+    .btclogo2{
+      width: 30px;
+    position: absolute;
+    margin-top:20px ;
+    margin-top:4%;
+    margin-left:-6%;
+    z-index: -1;
+    }
+    .centerpostimg{ 
+      height:280px;
+      width: 500px;
+      border-radius: 20px;
+    }
+    .xlogo{
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+      border: none;
+    }
+    
+    
+    
+    
+    #logox{
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 25px; 
+      color: black;
+    
+    }
+    
+    .xlogo:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    #home1{
+      margin-left:8px;
+      font-size: 20px;
+      margin-top: 10px;
+    position: absolute;
+    }
+    .home{
+      position: relative;
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top: 20px;
+      margin-left:40px ;
+      border-radius: 50%;
+      border: none;
+    }
+    .homegreendot{
+      position: absolute;
+    width: 8px;
+    margin-left: 28px;
+    margin-top: 5px;
+    
+    }
+    
+    .home:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    
+    .homecontent{
+      display: none;
+      margin-left: -5%;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:40px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:40px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+    
+    
+    }
+    .home:hover .homecontent{
+    
+      display: block;
+    }
+    
+    
+    .search{
+      
+      
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    }
+    #search1{
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px;
+    }
+    .search:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    .searchcontent{
+      padding-left: 5px;
+      margin-left: -5%;
+      display: none;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:50px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      
+    
+    }
+    .search:hover  .searchcontent{
+    display: block;
+    
+    }
+    .bell{
+    
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+      border: none;
+    
+    }
+    #bell1{
+      margin-left: 10px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px;
+    
+    }
+    .bell:hover{
+      
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    .bellcontent{
+      padding-left: 5px;
+      margin-left: -10%;
+      display: none;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:75px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      
+    
+    }
+    .bell:hover .bellcontent{
+    
+      display: block;
+    }
+    .message{
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+      border: none;
+    }
+    #message1{
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px;
+    
+    }
+    .message:hover{
+      
+      background-color:
+      rgba(0, 0, 0, 0.03)
+        
+    
+    }
+    .messagecontent{ 
+       margin-left: -10%;
+      display: none;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:60px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      
+    }
+    
+    .message:hover  .messagecontent{
+       display: block;
+    
+    }
+    .grok{
+      border: 1px solid transparent;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+      
+    
+    }
+    .grok1{
+      position: absolute;
+    width: 23px;
+    margin-top: 10px;
+    margin-left:8px;
+    
+      
+    }
+    .grok:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    .grok:hover .grokcontent{
+       display: block;
+    
+    }
+    .grokcontent{
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:35px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:40px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      margin-left:2px;
+      display: none;
+      border: none;
+    
+    }
+    .list{
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    border: none;
+      
+    }
+    #list1{
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px;
+    
+    
+    
+    }
+    .list:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    
+    .listcontent{
+      display: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:30px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      
+    
+    }
+    .list:hover .listcontent{
+    
+      display: block;
+    }
+    
+    
+    .bookmark{
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    border: none;
+    
+    }
+    #bookmark1{
+      margin-left: 11px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px; 
+    }
+    
+    .bookmark:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .bookmarkcontent{
+    
+      display: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:70px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+     left:21px;
+    position: absolute;
+    border: none;
+    }
+    .bookmark:hover  .bookmarkcontent{
+    display: block;
+    
+    }
+    .community{
+    
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+     border: none;
+    }
+    #community1{
+    
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px; 
+    }
+    .communitycontent{
+    display: none;
+      border: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:70px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:10px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+     left:21px;
+    position: absolute;
+    }
+    .community:hover   .communitycontent{
+    
+    display: block;
+    
+    }
+    .community:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .Premium{
+     
+      border: 1px solid transparent;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    
+    
+    }
+    #Premium1{
+    
+      margin-left:8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 25px; 
+      color: black;
+    
+    }
+    
+    .Premiumcontent{
+      display: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:70px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:10px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+     left:21px;
+    position: absolute;
+    
+    }
+    .Premium:hover .Premiumcontent{
+    display: block;
+    
+    
+    }
+    .Premium:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .profile{
+    border: none;
+      border: 1px solid transparent ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    
+    }
+    #profile1{
+      margin-left:8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 25px; 
+      color: black;
+    
+    
+    }
+    .profilecontent{
+      display: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:40px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:10px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+     left:40px;
+    position: absolute;
+    
+    }
+    
+    .profile:hover .profilecontent{
+    
+      display: block;
+    }
+    .profile:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .more{
+      border: 1px solid transparent;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    
+    
+    }
+    .more1{
+      position: absolute;
+    width: 23px;
+    margin-top: 10px;
+    margin-left:8px;
+    
+    
+    }
+    
+    .more:hover {
+    
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    
+    
+    
+    .morecontent{
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:35px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:40px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      margin-left:2px;
+      display: none;
+    
+    }
+    .more:hover  .morecontent{
+    
+      display: block;
+    }
+    .post{
+     
+    
+    }
+    .post1{
+      border-radius: 50%;
+      position: absolute;
+      width: 70px;
+      margin-top:13px;
+      margin-left: 24px;
+    
+    }
+    .post1:hover{
+    color: red;
+    
+    }
+    .postcontent{
+      position: absolute;
+      margin-top: 80px;
+      margin-left:35px;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:35px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      padding-left: 5px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      display: none;
+    
+    
+    }
+    .post:hover  .postcontent{
+    
+      display: block;
+    }
+    .account{
+      border: 1px solid red ;
+      width: 70px;
+      height: 70px;
+      margin-top:100px ;
+      margin-left:30px ;
+      border-radius: 50%;
+     border: none;
+     display: flex;
+     justify-content: center;
+    }
+    .account1{
+      position: absolute;
+      width: 40px;
+      margin-top: 10%;
+      
+      border-radius: 50%;
+      
+    }
+    .accountcontent{
+    
+      position: absolute;
+      margin-top: -10px;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:50px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+     padding-left: 5px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      display:none;
+    
+    }
+    
+    .account:hover .accountcontent{
+    
+      display: block;
+    }
+    
+    
+    
+    
+    .account:hover{
+    
+      background-color: #E7E7E8;
+    
+    
+    }    
+    
+    .x{
+width: 30px;
+margin-left:8%;
+margin-top: 10px;
+border-radius: 50px;
+
+
+
+    }
+    
+
+    
+    .notificationbar6{
+  border: 1px solid #CFD9DE;
+  width:100% ;
+   height:100px;
+
+    }
+  .logintext{
+     position: absolute;
+      margin-left:8% ;
+     font-size: 15px;
+     font-weight: 400;
+     font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+    }
+    .logintext2{
+   position: absolute;
+   margin-left:8% ;
+   margin-top:20px;
+    font-size:15px ;
+    font-weight: 400;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    #x{
+  font-size: 30px;
+      width: 30px;
+margin-left:8%;
+margin-top: 10px;
+border-radius: 50px;
+
+    }
+    
+    
+      
+    
+    
+    
+    .time{
+    margin-left: 10px;
+    
+    }
+    .tvch{
+    border: 4px solid red;
+    width: 100%;
+    height:460px;
+    border: none;
+    }
+    
+
+
+    .footer1{
+      margin-top:50px;
+     justify-content: space-evenly;
+   display: flex;
+   gap: 10px;
+   
+
+    }
+    .footer2{
+      margin-top:20px;
+      justify-content: space-evenly;
+    display: flex;
+    gap: 10px;
+ 
+
+
+    }
+    li{
+      list-style: none;
+font-size: 13px;
+     font-weight: 400; 
+      color: rgb(83, 100, 113)
+    
+
+    }
+    .foot{
+      position: fixed;
+position: absolute;
+bottom: 0;
+
+
+    }
+    

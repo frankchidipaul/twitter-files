@@ -1,0 +1,129 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+height: 100vw;
+width: 100%;
+background-color: blue;
+position: relative;
+background-color:
+rgba(0, 0, 0, 0)
+
+
+}
+.centerbody{
+ position: relative;
+width:40%;
+height:100vw;
+border: 2px red solid;
+margin-left:112px ;
+
+
+}
+.centernav{
+border: 2px solid pink;
+height:60px;
+width: 60%;
+position: fixed;
+
+
+
+}
+
+
+
+
+ul {
+display: flex;
+text-align: center;
+justify-content: space-between;
+padding-top: 5%;
+
+
+}
+li{
+   margin-top: -5%;
+    list-style: none;
+    position: relative;
+}
+.for{
+height: 60px;
+width: 45%;
+border: 2px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.follo{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    height: 60px;
+    width: 45%;
+    border: 2px solid green;
+    margin-right: 10px;
+
+}
+.follo:hover{
+    background-color:rgb(15, 20, 25, 0.1) ;
+    
+}
+
+.setting{
+display: flex;
+align-items: center;
+justify-content: center;
+ margin-right:10px ;
+ margin-top:-20px ;
+height: 30px;
+width: 30px;
+border: 2px solid indigo;
+ border-radius: 50%;
+
+}
+.setting:hover{
+    background-color:rgb(15, 20, 25, 0.1) ; 
+}
+
+.rightbody{
+    position: relative;
+    margin-top: -50%;
+    position: relative;
+    width: 30%;
+    height: 800px;
+    border: 2px red solid;
+    margin-left:70.4%;
+    
+ 
+
+}
+
+.fi{
+margin-top: 150%;
+position: sticky;
+top: 0;
+}
+.leftbody{
+position: relative;
+border: 2px solid red;
+width: 10%;
+height: 100vw;
+margin-top: -65%;
+position: fixed;
+overflow-y:scroll;
+overflow-wrap: normal;
+}
+.rightnav{
+position: fixed;
+border: 2px solid green;
+height: 60px;
+width:30% ;
+margin-top: -1%;
+background-color: aqua;
+
+}

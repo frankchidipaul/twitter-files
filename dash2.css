@@ -1,0 +1,1961 @@
+*{
+    padding:0 ;
+    margin:0 ;
+    
+    }
+    body{
+    align-items: start;
+    width:100% ;
+    height:100vw;
+    position: relative;
+    overflow-x: hidden;
+    
+  
+    }
+
+    /* .mainbody{
+    
+    border: 2px solid green;
+    height:100vh ;
+    width: 100%;
+    position: relative;
+    margin-left:8rem ;
+    
+    } */
+    #centerbody{
+    
+      border: 1px solid #EFF3FA ;
+      height:100vh;
+      margin-left:8rem ;
+      margin-right:20rem ;
+      border-bottom: none;
+       
+    
+    
+    }
+    .centernav{
+      background-color:#fff;
+    border:1px solid #F7F9F9;
+    width:59.80%;
+    height:60px ;
+    position: fixed;
+    margin-top:-5px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+    
+    
+    }
+    
+    .center1{
+      border-top: 2px solid #F7F9F9;
+      margin-top:9% ;
+    height:100px ;
+    width: 100%;
+    border-top:none ;
+    
+    
+    }
+  .img1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+    
+    }
+    .inputtext{
+     margin-left:20px ;
+     height:40px ;
+     width:200px ;
+     border: none;
+     margin-top:1%;
+     position: absolute;
+     outline: none;
+    
+    
+    
+    }
+    ::placeholder{
+    font-size:20px ;
+    font-weight:400;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+    
+    
+    }
+    .btn1{
+    width:200px ;
+    border-radius:20px ;
+    height: 30px;
+    border:none;
+    background-color:#fff ;
+    z-index: 1;
+    }
+     #Everyone{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size:14px ;
+    font-weight: 700;
+    color:
+    rgb(29, 155, 240);
+     
+    
+    }
+    .hover1{
+    border: 1px solid red;
+    width: 200px;
+    height:30px ;
+    position: absolute;
+    margin-left:5% ;
+    border: none;
+    
+    
+    }
+    
+    .btn1:hover{
+    background-color:#EBF5FB ;
+    
+    }
+    #glob1{
+      color:
+      rgb(29, 155, 240);
+       
+      width:1px ;
+    left: 0;
+    margin-left:5%;
+    margin-top:-5px ;
+    position: absolute
+    
+    }
+    .dropdown{
+    position: absolute;
+    margin-left:-45px ;
+     border-radius: 20px; 
+    border:1px solid green ;
+    width:300px ;
+    height:300px ;
+    box-sizing: border-box; ;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: none;
+    background-color:#fff;
+    }
+    .hover1:focus-within  .dropdown{
+    
+    display: block;
+    
+    }
+    .dropdowntext{
+    margin-left: 20px;
+    margin-top:20px ;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    
+    
+    
+    }
+    .dropdowntext1{
+    font-size:15px ;
+    font-family: sans-serif;
+    margin-left: 20px;
+    color:#566774 ;
+    
+    }
+    .dropdowntext2{
+    margin-left: 50px;
+    margin-top: 10px;
+    
+    }
+    #world{
+    
+    margin-right: 10%;
+    width: 20px;
+    color: aqua;
+    margin-left: -10%;
+    } */
+    /* #setting{
+    right: 0;
+    position: absolute;
+    margin-right: 5%;
+    
+    } */
+    
+    
+    /* .setting1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 30px;
+    height:30px ;
+    
+    
+    } */
+    
+    .setting1:hover{
+      background-color:rgb(15, 20, 25, 0.1) ;
+    
+    }
+    
+    .setting1{
+    border: 2px solid blue;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    
+    }
+    .setting1:hover{
+    
+      background-color:rgb(15, 20, 25, 0.1);
+    }
+    
+    .follow{
+    border: none;
+    
+    height: 60px;
+    width:45% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43%;
+    }
+    #follo{  
+    margin-right: 10%;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   font-weight: 500;
+   font-size: 15px;
+    }
+    .follow:hover{
+    background-color:rgb(15, 20, 25, 0.1) ;
+    
+    }
+    .for{
+      font-weight: 500;
+      font-size: 15px;
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color:#fff;
+      align-items: center;
+    
+      height: 60px;
+      width:45% ;
+      position: absolute;
+      left: 0;
+      display: flex;
+      justify-content: center
+      
+    }
+    .for:hover{
+    
+      background-color:rgb(15, 20, 25, 0.1) ;
+    
+    }
+    .centertext{
+      
+      border:2px solid red ;
+      width: 100%;
+      height:100vh;
+      border: none;
+      
+    
+    }
+    
+    
+    .centerpost{
+    border:1px solid  red ;
+    width: 80%;
+    height:285px ;
+    margin: 2rem 2rem;
+    border-radius: 20px;
+    z-index: -1;
+    margin-left:10%;
+    border: none;
+    
+    }
+
+    .everyonedropdown{
+      margin-top: -20px;
+      margin-left: 30px;
+      position: absolute;
+      color: black;
+      font-size:10px;
+
+
+    }
+    
+      
+    .tvc{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    
+    }
+    .tvctext{
+      z-index:-1;
+      position:absolute;
+      font-family: sans-serif;
+      margin-top:20px;
+      font-size: 15px;
+       font-weight: 600;
+        margin-left: 10px;
+    
+    }
+    .bluestick{
+      width: 20px;
+    position: absolute;
+    margin-left:8%;
+    margin-top:2%;
+    z-index: -1;
+    
+    
+    }
+    
+    .tvng{
+      
+    margin-top:3.5% ;
+    margin-left: 10px;
+    position: absolute;
+      font-family: sans-serif;
+      font-size: 13px;
+     z-index: -1;
+     color: rgb(83, 100, 113)
+    
+    }
+    .tvng2{
+      
+      position: absolute;
+      margin-left: 20px;
+        z-index: -1;
+        font-family: sans-serif;
+        font-size: 13px;
+      
+    }
+    .netflix{
+    
+     margin-top:20% ;
+       border:1px solid transparent ;
+       width: 80%;
+       height:285px ;
+       margin: 2rem 2rem;
+       border-radius: 20px;
+       z-index: -1;
+       margin-left:10%;
+     
+     
+     
+     }
+
+    .video1{
+    width: 500px;
+    border-radius: 20px;
+    z-index: -1;
+         }
+    .rightside{
+      border: 2px solid red;
+      height:300%;
+      width: 310px;
+      margin-left:670px;
+      margin-top: -122%;
+      border: none;
+    
+    
+    }
+    a{
+      color: black;
+    }
+    
+    
+    
+    .rightnav{
+      border: 1px solid  transparent;
+      width: 90%;
+      height:60px ;
+      margin-top:-6%;
+      position: fixed;
+      z-index: 1;
+       background-color: #fff;
+       margin-left:11px;
+       border-top:2px solid #EFF3FA ;
+    }
+    .leftside{
+    
+      border: 3px solid green;
+      height: 100vh;
+      width: 125px;
+      position: absolute;
+      left: 0;
+      top: 0;
+       overflow-y:scroll;
+       border: none;
+       overflow-x: hidden;
+       position: fixed;
+         
+       
+    }
+    .centericon{
+      border: 1px solid transparent;
+      width: 90%;
+      height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left:10% ;
+    gap: 20px;
+    
+    }
+    #iconcolor{
+    color:rgb(29, 155, 240) ;
+    margin-top:5px;
+    
+    
+    }
+    
+    .iconhover{
+      border: 1px solid red;
+      height: 35px;
+      width: 35px;
+      display: flex;
+      justify-content: center;
+    border-radius: 50%;
+    border: none;
+    
+    }
+    .iconhover:hover{
+    background-color: #E8F5FD;
+    
+    
+    }
+    #iconcolorlocation{
+    
+      color: #8ECDF7;
+    }
+    .Everyonehover{
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+    border: none;
+    
+    }
+    
+    .postbtn{
+      z-index: -1;
+      border: none;
+    color: #fff;
+      font-size:15px ;
+      font-weight: 700;
+    width:65px ;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    right: 35%;
+    background-color: #8ECDF7;
+    
+    
+    
+    }
+    .posted{
+      border: 1px solid #F7F9F9;
+    width:100%;
+    height:50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    
+    .posted:hover{
+    
+      background-color: #EFF3FA;
+    }
+    .show{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color:rgb(29, 155, 240) 
+    
+    
+    }
+    #dot8{
+    margin-left:40px;
+    
+    
+    }
+    #dot7{
+    
+      margin-left:100px;
+    
+    
+    
+    }
+    .inputright{
+    margin-top: 15px;
+    height: 40px;
+    width: 25%;
+    margin-left: 30px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #EFF3FA;
+    border: none;
+    
+    
+    }
+    .inputright::placeholder{
+    color: black;
+    font-size: 15px;
+    padding-left: 35px;
+    
+    
+    }
+    #sach{
+    width: 30px;
+    position: absolute;
+    left: 0;
+    margin-top: 23px;
+    margin-left: 35px;
+    }
+    .right2{
+    margin-top: 25%;
+    border: 1px solid green;
+    height:120px ;
+    width:85%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #EFF3FA;
+    border: none;
+    padding-top: 10px;
+    
+    }
+    .Subscribe{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+    margin-left: 20px;
+    
+    }
+    .sub1{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin-top: 10px;
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 13px;
+    
+    
+    }
+    .sub2{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 13px;
+    
+    
+    }
+    .btnsub{
+    margin-top: 15px;
+    margin-left: 20px;
+    height:32px ;
+    width:90px ;
+    border-radius: 20px;
+    color: #fff;
+      font-size:15px ;
+      font-weight: 700;
+    background-color: black;
+    border: none;
+    z-index: -1;
+    }
+    .right3{
+     
+      margin-top: 15px;
+    border: 1px solid red;
+     width: 85%;
+    background-color: #EFF3FA;
+    height: 400px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    border: none;
+    
+    }
+    .trend{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      margin-left: 10px;
+    
+      }
+    .rightsidesticky{
+    
+      
+      position: sticky;
+      top: 0;
+      margin-top: 40px;
+    border: 1px solid red;
+     width: 85%;
+    background-color: #EFF3FA;
+    height: 300px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    border: none;
+    
+    }
+    .whotofollow{
+      font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin-top: 5px;
+      margin-left: 10px;
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color:
+      rgb(15, 20, 25)
+      
+    }
+    
+    .instabloglogo{
+    width: 60px;
+    position: absolute;
+    left: 0;
+    margin-top: -5px;
+    
+    }
+    .Instablog9ja1{
+      left: -5%;
+      margin-left: 25%;
+      margin-top:5%;
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 20px;
+       font-weight: 500;
+      color:
+      rgb(15, 20, 25)
+      
+    }
+    .verifiedbluetick{
+    
+      margin-left:60% ;
+     width: 20px;
+     position: absolute;
+     margin-top: 5%;
+     
+    
+    }
+    .instbloghover{
+      border: 1px red solid;
+    width: 100%;
+    height: 70px;
+    border: none;
+    
+    
+    }
+    .instbloghover:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    
+    .instatext{
+    position: absolute;
+    margin-top:18%;
+    margin-left:55px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgb(83, 100, 113)
+    }
+    .elonmusklogo{
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:5%;
+    left: 0;
+    margin-left:5% ;
+    }
+    .elonmusktext1{
+      left: -5%;
+      margin-left: 25%;
+      margin-top:2%;
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 20px;
+       font-weight: 500;
+      color:
+      rgb(15, 20, 25)
+    
+    }
+    .verifiedbluetickpage2{
+      margin-left:55% ;
+      width: 20px;
+      position: absolute;
+      margin-top: 2%;
+      
+    
+    }
+    .elonmusktext2{
+    
+      position: absolute;
+      margin-top:15%;
+      margin-left:54px;
+      font-family: sans-serif;
+      font-size: 13px;
+      color: rgb(83, 100, 113)
+    
+    }
+    
+    
+    .elonmuskhover{
+       margin-top: 20px;
+      border: 1px red transparent;
+      width: 100%;
+      height: 70px;
+      
+      
+    }
+    .elonmuskhover:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+      
+    }
+    .binancehover{
+    
+      margin-top: 20px;
+      border: 1px red solid;
+      width: 100%;
+      height: 70px; 
+      border: none;
+    }
+    .binancelogo{
+      width: 35px;
+      border-radius: 50%;
+      position: absolute;
+      margin-top:5%;
+      left: 0;
+      margin-left:5% ;
+    
+    }
+    .binancetext1{
+      left: -5%;
+      margin-left: 25%;
+      margin-top:2%;
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 20px;
+       font-weight: 500;
+      color:
+      rgb(15, 20, 25)
+    
+    
+    }
+    .binancetext2{
+      position: absolute;
+      margin-top:15%;
+      margin-left:54px;
+      font-family: sans-serif;
+      font-size: 13px;
+      color: rgb(83, 100, 113)
+    }
+    .verifiedgoldtickpage{
+      margin-left:40% ;
+      width: 60px;
+      position: absolute;
+      
+    }
+    .binancehover:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    
+    
+    .centericon
+    .right4{
+    border: 1px solid red;
+    width: 100%;
+    height: 65px;
+    margin-top: 20px;
+    border: none;
+    
+    
+    
+    }
+    
+    .right4:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .right4{
+    
+      padding-bottom: 10px;
+    }
+    
+    .right4child1{
+    
+        margin-top: 10px;
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 13px;
+     color: rgb(83, 100, 113)
+    
+    }
+    .right4child2{
+      
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 20px;
+       font-weight: 500;
+       margin-top: 5px;
+    }
+    
+    .right4child3{
+      margin-left: 20px;
+      font-family: sans-serif;
+      font-size: 13px;
+      margin-top: 5px;
+     color: rgb(83, 100, 113)
+    }
+    .right5 {
+       padding-bottom:10px;
+      border: 1px solid red;
+      width: 100%;
+      height:75px;
+      margin-top: 20px;
+      border: none;
+    
+    }
+    .right6{
+     padding-top:2px;
+      
+      border: 1px solid red;
+      width: 100%;
+      height:75px;
+      margin-top: 20px;
+      border: none;
+    
+    }
+    .right6:hover{
+    
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .right5:hover{
+    
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    #dot{
+    position: absolute;
+    margin-left:30%;
+    
+    }
+    #dot1{
+    
+      position: absolute;
+      margin-left:6%;
+      
+    
+    }
+    #dot2{
+    
+    position: absolute;
+    margin-left:32%;
+    
+    }
+    .comment{
+      position: absolute;
+      display: flex;
+      justify-content: space-around;
+     font-size: 12px;
+     font-family: sans-serif;
+     margin-top: -2.6%;
+     gap: 40px;
+     margin-left:60px;
+     
+    }
+    li{
+      display:flex;
+      
+    list-style: none;
+      
+    }
+    .imgview{
+       z-index: -1;
+      margin-top: -5px;
+    }
+    .commentfigure{
+      
+     z-index: -1;
+      margin-left: 10px;
+      color: rgb(83, 100, 113)
+    }
+    .centerpost2{
+     z-index: -1; 
+    border: 1px solid transparent;
+    width: 80%;
+    height:285px ;
+    margin: 2rem 2rem;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left:10%;
+    
+    
+    
+    }
+    .btclogo{
+     width: 50px;border-radius: 50%;
+     margin-left: 20px;
+     margin-top: -1%;
+    z-index: -1;
+    
+    }
+    .btctext{
+      font-family: sans-serif;
+      z-index: -1;
+      font-size: 15px;
+       font-weight: 600;
+       
+       position: absolute;
+        margin-left: 10px;
+    
+    
+    
+    }
+    .btcorg{
+      position: absolute;
+      margin-left: 18%;
+    z-index: -1;
+      margin-top: -4%;
+        font-family: sans-serif;
+        font-size: 13px;
+        color: rgb(83, 100, 113)
+    
+    
+    }
+    .btcorg1{
+      position: absolute;
+    z-index: -1;
+      margin-left:40px;
+      
+        font-family: sans-serif;
+        font-size: 13px;
+       
+    
+    }
+     
+    .btclogo2{
+      width: 30px;
+    position: absolute;
+    margin-top:20px ;
+    margin-top:4%;
+    margin-left:-6%;
+    z-index: -1;
+    }
+    .centerpostimg{ 
+      height:280px;
+      width: 500px;
+      border-radius: 20px;
+       }
+
+
+    .xlogo{
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+      border: none;
+    }
+    
+    
+    
+    
+    #logox{
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 25px; 
+      color: black;
+    
+    }
+    
+    .xlogo:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    #home1{
+      margin-left:8px;
+      font-size: 20px;
+      margin-top: 10px;
+    position: absolute;
+    }
+    .home{
+      position: relative;
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top: 20px;
+      margin-left:40px ;
+      border-radius: 50%;
+      border: none;
+    }
+    .homegreendot{
+      position: absolute;
+    width: 8px;
+    margin-left: 28px;
+    margin-top: 5px;
+    
+    }
+    
+    .home:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    
+    .homecontent{
+      display: none;
+      margin-left: -5%;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:40px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:40px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+    
+    
+    }
+    .home:hover .homecontent{
+    
+      display: block;
+    }
+    
+    
+    .search{
+      
+      
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    }
+    #search1{
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px;
+    }
+    .search:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    .searchcontent{
+      padding-left: 5px;
+      margin-left: -5%;
+      display: none;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:50px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      
+    
+    }
+    .search:hover  .searchcontent{
+    display: block;
+    
+    }
+    .bell{
+    
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+      border: none;
+    
+    }
+    #bell1{
+      margin-left: 10px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px;
+    
+    }
+    .bell:hover{
+      
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    .bellcontent{
+      padding-left: 5px;
+      margin-left: -10%;
+      display: none;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:75px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      
+    
+    }
+    .bell:hover .bellcontent{
+    
+      display: block;
+    }
+    .message{
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+      border: none;
+    }
+    #message1{
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px;
+    
+    }
+    .message:hover{
+      
+      background-color:
+      rgba(0, 0, 0, 0.03)
+        
+    
+    }
+    .messagecontent{ 
+       margin-left: -10%;
+      display: none;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:60px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      
+    }
+    
+    .message:hover  .messagecontent{
+       display: block;
+    
+    }
+    .grok{
+      border: 1px solid transparent;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+      
+    
+    }
+    .grok1{
+      position: absolute;
+    width: 23px;
+    margin-top: 10px;
+    margin-left:8px;
+    
+      
+    }
+    .grok:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    .grok:hover .grokcontent{
+       display: block;
+    
+    }
+    .grokcontent{
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:35px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:40px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      margin-left:2px;
+      display: none;
+      border: none;
+    
+    }
+    .list{
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    border: none;
+      
+    }
+    #list1{
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px;
+    
+    
+    
+    }
+    .list:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    
+    .listcontent{
+      display: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:30px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      
+    
+    }
+    .list:hover .listcontent{
+    
+      display: block;
+    }
+    
+    
+    .bookmark{
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    border: none;
+    
+    }
+    #bookmark1{
+      margin-left: 11px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px; 
+    }
+    
+    .bookmark:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .bookmarkcontent{
+    
+      display: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:70px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:20px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+     left:21px;
+    position: absolute;
+    }
+    .bookmark:hover  .bookmarkcontent{
+    display: block;
+    
+    }
+    .community{
+    
+      border: 1px solid red ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+     border: none;
+    }
+    #community1{
+    
+      margin-left: 8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 20px; 
+    }
+    .communitycontent{
+    display: none;
+      border: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:70px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:10px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+     left:21px;
+    position: absolute;
+    }
+    .community:hover   .communitycontent{
+    
+    display: block;
+    
+    }
+    .community:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .Premium{
+     
+      border: 1px solid transparent;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    
+    
+    }
+    #Premium1{
+    
+      margin-left:8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 25px; 
+      color: black;
+    
+    }
+    
+    .Premiumcontent{
+      display: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:70px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:10px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+     left:21px;
+    position: absolute;
+    
+    }
+    .Premium:hover .Premiumcontent{
+    display: block;
+    
+    
+    }
+    .Premium:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .profile{
+    border: none;
+      border: 1px solid transparent ;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    
+    }
+    #profile1{
+      margin-left:8px;
+      font-size: 25px;
+      margin-top: 8px;
+      font-size: 25px; 
+      color: black;
+    
+    
+    }
+    .profilecontent{
+      display: none;
+      padding-left: 5px;
+      position: absolute;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:40px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:10px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+     left:40px;
+    position: absolute;
+    
+    }
+    
+    .profile:hover .profilecontent{
+    
+      display: block;
+    }
+    .profile:hover{
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    
+    }
+    .more{
+      border: 1px solid transparent;
+      width: 40px;
+      height: 40px;
+      margin-top:20px ;
+      margin-left:40px ;
+      border-radius: 50%;
+    
+    
+    }
+    .more1{
+      position: absolute;
+    width: 23px;
+    margin-top: 10px;
+    margin-left:8px;
+    
+    
+    }
+    
+    .more:hover {
+    
+      background-color:
+      rgba(0, 0, 0, 0.03)
+    
+    }
+    
+    
+    
+    .morecontent{
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:35px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      margin-top:40px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      margin-left:2px;
+      display: none;
+    
+    }
+    .more:hover  .morecontent{
+    
+      display: block;
+    }
+  
+    .post1{
+      border-radius: 50%;
+      position: absolute;
+      width: 70px;
+      margin-top:13px;
+      margin-left: 24px;
+    
+    }
+    .post1:hover{
+    color: red;
+    
+    }
+    .postcontent{
+      position: absolute;
+      margin-top: 80px;
+      margin-left:35px;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:35px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+      padding-left: 5px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      display: none;
+    
+    
+    }
+    .post:hover  .postcontent{
+    
+      display: block;
+    }
+    .account{
+      border: 1px solid red ;
+      width: 70px;
+      height: 70px;
+      margin-top:100px ;
+      margin-left:30px ;
+      border-radius: 50%;
+     border: none;
+     display: flex;
+     justify-content: center;
+    }
+    .account1{
+      position: absolute;
+      width: 40px;
+      margin-top: 10%;
+      
+      border-radius: 50%;
+      
+    }
+    .accountcontent{
+    
+      position: absolute;
+      margin-top: -10px;
+      font-family: sans-serif;
+      border:1px solid red  ;
+      width:50px;
+      height:15px;
+      background-color: black;
+      color:#fff;
+     padding-left: 5px;
+      font-size: small;
+      border-radius: 2px;
+      border: none;
+      display:none;
+    
+    }
+    
+    .account:hover .accountcontent{
+    
+      display: block;
+    }
+    
+    
+    
+    
+    .account:hover{
+    
+      background-color: #E7E7E8;
+    
+    
+    }    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    .modal{ 
+      top: 0;
+      width:100%;
+      height:100vh
+      ;
+      position: absolute;
+      background-color:rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      display: none;
+      position: fixed;
+    
+    }
+    .modalcontent{
+    width: 550px;
+    height:300px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: -20%;
+    margin-right:20%;
+    position: absolute;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      }
+    .popupimg{
+      margin-top: 10%;
+    width: 50px;
+    margin-left:20px ;
+    border-radius: 50%;
+    
+    
+    }
+    .inputtextpopup{
+    
+      margin-left:20px ;
+      height:40px ;
+      width:200px ;
+      border: none;
+      margin-top:10%;
+      position: absolute;
+      outline: none;
+    
+    }
+    .close{
+      border:1px solid red ;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left:4%;
+    margin-top: 10px;
+    border: none;
+    
+    }
+    .close:hover{
+    background-color: #E7E7E8;
+    
+    }
+    #close1{
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor:pointer ;
+    margin-left: 30%;
+    position: absolute;
+    }
+    .draft{
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+    .draft1{
+    position: absolute;
+    right: 0;
+    margin-right:20px;
+    width:60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: none;
+    margin-top: 10px;
+    }
+    #draft2{
+      font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color:
+    rgb(29, 155, 240)
+     
+    
+    }
+    .draft1:hover{
+    background-color: #E8F5FD;
+    
+    }
+    .pupupbtn{
+      position: absolute;
+      margin-top: 30%;
+      width:180px ;
+      border-radius:20px ;
+      height: 30px;
+      border:none;
+      background-color:#fff ;
+      border: 1px solid red;
+      margin-left: -9%;
+      border: none;
+    
+      }
+      .pupupbtn:hover{
+        background-color: #E8F5FD
+    
+      }
+      
+    
+    
+    
+      #reply{
+      
+        margin-top: 20%;
+         margin-left: 20px;
+        font-size:14px ;
+        font-weight: 700;
+        color:
+        rgb(29, 155, 240);
+        right:67%;;
+        
+        }
+        #pupupglob{
+    
+          color:
+          rgb(29, 155, 240);
+         position: absolute;  
+          width:1px ;
+        left: 0;
+        margin-left:5%;
+        margin-top: -5px;
+        
+        
+        
+        }
+        .linebreak{
+         width: 500px;
+         position: absolute;
+         border: 1px solid#F7F9F9 ;
+         margin-top: 21%;
+         margin-left: 
+         21px;
+      
+        
+    
+    
+        }
+      .pupupicon{
+      margin-top:20%;
+        border: 1px solid red;
+    width: 520px;
+      height:50px;
+      display: flex;
+      gap: 20px;
+      padding-top: 20px;
+      padding-left: 10px;
+      border: none;
+    
+      }
+    .btnpupup{
+      margin-top: -10px;
+      margin-left:20%;
+      height:35px;
+      width: 70px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #8ECDF7;
+    color: #fff;
+    border: none;
+    }
+    
+    .netflix{
+      
+     margin-top: 20%;
+      border:1px solid transparent ;
+      width: 80%;
+      height:285px ;
+      margin: 2rem 2rem;
+      border-radius: 20px;
+      z-index: -1;
+      margin-left:10%;
+     
+    
+    
+    }
+
+    .video2{
+      width: 500px;
+      border-radius: 20px;
+      z-index: -1;
+   
+
+
+           }
+
+
+
+    .netflixlogo{
+      margin-top:55%;
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+    }
+    .netflixtext{
+      font-family: sans-serif;
+      z-index: -1;
+      font-size: 15px;
+       font-weight: 600;
+       margin-top:32%;
+       position: absolute;
+        margin-left: 10px;
+    
+    
+    
+    }
+    .netflixnaija{
+    margin-top: 32%;
+      position: absolute;
+      margin-left:11%;
+    z-index: -1;
+      
+        font-family: sans-serif;
+        font-size: 13px;
+        color: rgb(83, 100, 113)
+    }
+    .time{
+    margin-left: 10px;
+    
+    }
+    .tvch{
+    border: 4px solid red;
+    width: 100%;
+    height:460px;
+    border: none;
+    }
+    .footer1{
+      margin-top:30px;
+     justify-content: space-evenly;
+   display: flex;
+   gap: 10px;
+
+
+    }
+    .footer2{
+      margin-top:2px;
+      justify-content: space-evenly;
+    display: flex;
+    gap: 10px;
+ 
+
+
+    }
+    li{
+      list-style: none;
+       font-size: 13px;
+     font-weight: 400; 
+      color: rgb(83, 100, 113)
+    
+
+    }
+    .accountcontent2{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      background-color: #fff;
+      padding: 8px;
+      display: none;
+      left: 0;
+      margin-left: 2%;
+      margin-top:60%;
+      border-radius:15px;
+      height:90px;
+      width: 300px;
+      border: 1px solid transparent;
+      position: absolute
+      
+
+    }
+    .buttomdot{
+      transform: rotate(45deg);
+      margin-bottom: -8px;
+      margin-left: 10%;
+     position: absolute;
+     width:15px;
+     height:15px;
+     background-color:#fff;
+     bottom: 0;
+     
+    }
+    .dropdownaccount:focus-within .accountcontent2{
+       display: block;
+
+    }
+    .btnclick{
+      
+    cursor: pointer;
+      margin-top:73%;
+     left: 0;
+      position: absolute;
+    background-color: transparent;
+   width:40px;
+   height:40px;
+   margin-left:4%;
+   border-radius: 50%;
+   border: none;
+   
+    }
+    .log{
+      
+      margin-top:4%;
+
+
+    }
+    .loghover{
+    
+      border: none;
+      margin-top:10px;
+      border: 1px solid transparent;
+     height:40px ;
+      width:100%;
+    }
+    .loghover:hover{
+   background-color: #F7F9F9;
+
+    }
+
+    .addhover{
+  
+      border: none;
+      border: 1px solid transparent;
+     height:40px ;
+      width:100%;
+
+    }
+    .addhover:hover{
+      background-color: #F7F9F9;
+
+
+    }
+    .add{
+
+      margin-top: 5%;
+    }
+    

@@ -1,0 +1,1169 @@
+    
+ 
+    *{margin:0 ;
+
+  padding:0;
+
+}
+
+body{
+width: 100%;
+height:115vh ;
+font-family:sans-serif ;
+overflow-x: hidden;
+border: 1px solid transparent;
+}
+.cover{
+display: flex;
+
+}
+
+
+
+.logoimg{
+    border:1px solid transparent;
+    height:600px ;
+    width:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border: non;
+
+}
+
+     .img{
+margin-top:20% ;
+width: 400px;
+
+
+}
+.section{
+border:4px solid transparent ;
+width:50% ;
+height:600px ;
+
+
+
+
+}
+.h{ 
+
+
+font-size: 64px;
+font-weight: 700;
+margin-top:10% ;
+color: rgb(15, 20, 25);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.section1{
+  border: none;
+  border: none;
+border:1px solid transparent ;
+  width:50% ;
+  height:50px ;
+   margin-top:10% ;
+}
+.sp{
+
+font-size:31px ;
+font-weight: 700;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+
+}
+.input1{
+ margin-top:2% ;
+border:1px solid #E6E6E6 ;
+height: 28px;
+width:50% ;
+border-radius:20px ;
+text-align: center;
+position: relative;
+padding-top: 10px;
+}
+.google{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+
+font-size: 14px;
+font-weight: 700;
+}
+
+
+
+.googlelogo1{
+  margin-left:40px ;
+  position: absolute;
+  left:0 ;
+   margin-top:-17px ;
+font-size:14px ;
+}
+ 
+.google .a{
+
+text-align: center;
+text-decoration: none;
+margin-top:-20px ;
+}
+.google{
+font-size: 14px;
+
+
+}
+
+a{
+color:  rgb(15, 20, 25);;
+text-decoration: none;
+
+}
+.input2{
+margin-top:1% ;
+  border:1px solid #E6E6E6 ;
+  height: 20px;
+  width:46.5% ;
+ text-align: center;
+  position: relative;
+    padding:10px ;
+border-radius:20px ;
+}
+.google1{
+font-size:14px ;
+font-weight: 700;
+
+
+}
+.googlelogo2{
+position: absolute;
+margin-left:40px ;
+position: absolute;
+left:0 ;
+ margin-top:-17px ;
+font-size:14px ;
+
+
+
+}
+.input1:hover{
+background-color:#F8FAFF;
+
+
+}
+.input2:hover{
+background-color:#E6E6E6;
+
+
+}
+.roll{
+  border: none;
+ border:1px solid transparent; 
+    height:20px ;
+    width: 45%;
+  
+    padding-top:10px ;
+
+}
+.rollbox{
+  display: flex;
+  justify-content: space-evenly;
+border:1px solid green ;
+height: 40px;
+width: 50%;
+padding-top:20px ;
+border: none;
+
+}
+
+.b{
+  border:1px solid #E6E6E6;;
+  width:100% ;
+  
+
+}
+.b1{
+border:1px solid transparent ;
+width:45% ;
+height:30px ;
+padding-top:10px ;
+ border: none;
+
+}
+.b2{
+
+border:1px solid #E6E6E6; 
+width:100% ;
+
+
+}
+.input3{
+
+  border:1px solid #E6E6E6 ;
+  height: 20px;
+  width:46.5% ;
+ text-align: center;
+  position: relative;
+    padding:10px ;
+border-radius:20px ;
+
+background-color: 
+rgb(29, 155, 240);
+}
+.input3:hover{
+  background-color:rgb(26, 140, 216) ;
+;
+}
+  
+.creat{
+  font-weight: 700;
+ font-size: 15px;
+  color: #fff;
+}
+
+
+.create1{
+  border:1px solid blue ;
+  width:50% ;
+  height:40px ;
+  border: none;
+}
+.create2{
+font-size:10px ;
+margin-top:10px ;
+
+
+}
+.underline:hover{
+  text-decoration: underline;
+}
+.underline2:hover{
+text-decoration: underline;
+
+
+}
+.haveaccount{
+border:1px solid transparent ;
+width:100% ;
+height:100px ;
+margin-top: 20px;
+border: none;
+}
+.have1{
+font-size: 17px;
+font-weight: 700;
+
+
+}
+.input4{
+
+  border:1px solid #E6E6E6 ;
+  height: 20px;
+  width:46.5% ;
+ text-align: center;
+  position: relative;
+    padding:10px ;
+border-radius:20px ;
+margin-top:20px ;
+
+
+}
+.account{
+
+  font-size:14px ;
+font-weight: 700;
+
+}
+.input4:hover{
+  background-color:#F8FAFF;
+
+    
+
+}
+.footer{
+  margin-top:40px;
+border: none;
+border:2px solid transparent ;
+width:100% ;
+height:150px ;
+
+
+
+
+}
+.footer1{
+  
+  
+font-size:15px ;
+margin:10px ;
+
+}
+.f1{
+
+  color:
+  rgb(83, 100, 113)
+
+
+}
+.f1:hover{
+
+  text-decoration: underline;
+}
+.footer2{
+  font-size:15px ;
+  margin-left:20% ;
+
+}
+.modal2{
+
+  top: 0;
+  width:100%;
+  height:100vh;
+  position: absolute;
+  background-color:rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  display: none;
+  overflow-x: hidden;
+}
+
+.modalcontent2{
+
+  position: absolute;
+  width: 500px;
+  height:510px;
+  background-color: #fff;
+  border-radius: 20px;
+  
+  overflow-x: hidden;
+  
+  
+  
+  position: absolute;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+#twitterlogo{
+  font-size:40px ;
+  margin-top: 20px;
+margin-left:45%;
+position: absolute;
+
+   }
+
+
+   .inputmodal2{
+   margin-left:22%;
+    margin-top:30% ;
+    border:1px solid #E6E6E6 ;
+    height: 28px;
+    width:65% ;
+    border-radius:20px ;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+
+
+   }
+   .googlelogomodal2{
+    margin-left:65px ;
+    position: absolute;
+    left:0 ;
+     margin-top:-17px ;
+  font-size:14px ;
+
+
+   }
+   .inputmodal2:hover{
+    background-color:#F8FAFF;
+
+
+
+   }
+
+   .input2modal2:hover{
+    background-color:#E6E6E6;
+
+
+   }
+.input2modal2{
+  margin-top:5% ;
+  border:1px solid #E6E6E6 ;
+  height: 20px;
+  width:60% ;
+ text-align: center;
+  position: relative;
+    padding:10px ;
+border-radius:20px ;
+margin-left: 22%;
+
+}
+
+
+.google2logomodal2{
+  position: absolute;
+  margin-left:65px ;
+  position: absolute;
+  left:0 ;
+   margin-top:-17px ;
+  font-size:14px ;
+  
+  
+
+
+}
+.rollbox2{
+margin-left:140px;
+  display: flex;
+  justify-content: space-evenly;
+border:1px solid green ;
+height: 40px;
+width: 50%;
+padding-top:20px ;
+border: none;
+
+
+}
+.inputtextmodal2{
+  border-radius: 5px;
+  height:40px;
+  width:300px ;
+position: absolute;
+margin-left:120px ;
+outline-color: #1A8CD8;
+border: 1px solid  #CFD9DE ;
+padding-left: 30px;
+margin-top: -20px;
+}
+.inputtextmodal2::placeholder{
+  padding-left:20px;
+  color:#677682;
+  
+}
+
+.btnmodal2{
+  height:40px ;
+  width:300px ;
+  position: absolute;
+margin-top:6%;
+margin-left:25% ;
+border-radius: 20px;
+background-color: black;
+color: #fff;
+font-size: 15px;
+font-weight: 700;
+
+}
+
+
+
+
+
+.modal{
+  
+  top: 0;
+  width:100%;
+  height:100vh;
+  position: absolute;
+  background-color:rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  display: none;
+  overflow-x: hidden;
+
+}
+.modalcontent{
+  position: absolute;
+  width: 500px;
+  height:510px;
+  background-color: #fff;
+  border-radius: 20px;
+  
+  overflow-x: hidden;
+  
+  
+  
+  position: absolute;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    
+    .close{
+      border:1px solid  red;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left:4%;
+    margin-top: 10px;
+    border: none;
+    position: absolute;
+    
+    }
+    
+   
+
+
+     .close:hover{
+      background-color: #E7E7E8;
+      
+      
+    }
+      #close1{
+      margin-left: 20px;
+      margin-top: 10px;
+      cursor:pointer ;
+      margin-left: 30%;
+      position: absolute;
+      }
+      .step{
+        margin-top:20px ;
+        position: absolute;
+        color:rgb(0, 0, 0) ;
+        
+        margin-left:15%;
+        font-weight:600;
+        font-size:20px;
+
+
+      }
+      .modalbuttom{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color:#fff;
+      
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        bottom: 0;
+        position: absolute;
+      border: 1px solid transparent;
+      width:100%;
+      height:60px;
+      
+      }
+      .create{
+      position: absolute;
+      margin-top:15%;
+      margin-left:10%;
+      font-size: 31px;
+      font-weight: 700;
+      }
+      
+      #modalinput1{
+        height:50px;
+        width:350px;
+      position: absolute;
+      margin-top:30%;
+      margin-left:50px;
+        border-radius:5px;
+        outline-color: #1A8CD8;
+        padding-left: 30px;
+
+
+      }
+      #modalinput2{
+        height: 50px;
+        position: absolute;
+        margin-top:45% ;
+        margin-left: 50px;
+        width:350px;
+        border-radius:5px;
+        outline-color: #1A8CD8;
+         padding-left: 30px;
+      }
+      ::placeholder{
+      transform: scale(1.03);
+      color: #1A8CD8;
+      
+      }
+
+
+      .date{
+        font-weight: 700;
+        font-size: 15px;
+        margin-left:10%;
+     position: absolute;
+     margin-top:60% ;
+
+      }
+      .datetext1{
+        font-weight: 400;
+        font-size: 14px;
+        margin-left:10% ;
+       position: absolute;
+       margin-top:65% ;
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:#536471 ;
+      }
+    
+      
+    
+
+      .datetext2{
+        font-weight: 400;
+        font-size: 14px;
+        margin-left:10% ;
+       position: absolute;
+       margin-top:69% ;
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:#536471 ;
+
+      }
+      .dateoption{
+        bottom: 0;
+       position: absolute;
+       border: 2px solid red;
+       height:200px;
+       width: 440px;
+       margin-left: 20px;
+       border: none;
+      }
+      .dropupcontent{
+        margin-top: -60%;
+        position: absolute;
+        border: 1px solid red;
+      width: 200px;
+      height:200px;
+      background-color: #1A8CD8;
+
+      }
+      .btnmonth{
+    position: absolute;
+   
+   width:40%;
+   height:25%;
+   margin-top:13% ;
+   margin-left:6% ;
+   border-radius:5px ;
+   outline-color: #1A8CD8;
+      }
+      .m{
+        color: #1A8CD8;
+        position: absolute;
+       margin-top: -2rem;
+
+      }
+    option{
+      position: absolute;
+     margin-top: -20%;
+
+    }
+
+    .btnday{
+       border-radius: 5px;
+    position: absolute;
+    width: 20%;
+    height:25%;
+    margin-top: 13%;
+    margin-left:48% ;
+    outline-color: #1A8CD8;
+
+
+    }
+  .btnyear{
+    border-radius: 5px;
+    position: absolute;
+    height: 25%;
+    width:28% ;
+    margin-top: 13%;
+  margin-left:70%;
+  outline-color: #1A8CD8;
+  }
+  .btnbuttom{
+    margin-top: -20px;
+    border-radius: 20px;
+position: absolute;
+  width:80% ;
+  height: 45px;
+ background-color: #87898c;
+ font-size: 17px;
+ font-weight: 700;
+ color: #fff;
+ border: none;
+  }
+
+  .btnmodal3{
+    border:1px solid #E6E6E6 ;
+    background-color: #fff;
+    color:black;
+    font-weight: 700;
+    font-size: 15px;
+  height:35px ;  
+ margin-left:25%;   
+position: absolute;
+margin-top:18%;
+ width: 60%;
+border-radius: 20px;
+  }
+
+
+  .btnmodal3:hover{
+background-color: #E7E7E8;
+
+
+  }
+
+  .close2{
+    border:1px solid  red;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left:4%;
+  margin-top: 10px;
+  border: none;
+  position: absolute;
+  
+  }
+  
+ 
+
+
+   .close2:hover{
+    background-color: #E7E7E8;
+    
+    
+  }
+ 
+
+  @media only screen and (max-width:600px)
+    {
+    body{width:98%;
+       overflow-wrap: normal;
+       overflow-x: hidden;
+    }
+
+    .cover{
+      display: flex;
+      flex-direction: column;
+      
+      }
+
+      .logoimg{
+        border:1px solid  transparent;
+        height:60px ;
+        width:125% ;
+        margin-right:10% ;
+      
+    }
+
+
+
+
+    .img{
+      margin-top:-2% ;
+      width:40px;
+    margin-right:80% ;
+      
+      
+      }
+
+
+
+      .section{
+        border:4px solid green  ;
+        width:100% ;
+        height:600px ;
+        
+        border: non e;
+        
+
+  }
+
+  .h{ 
+ 
+   margin-left: 10%;
+    font-size:40px;
+    font-weight: 700;
+    margin-top:10% ;
+    
+    
+    }
+
+
+    .sp{
+     margin-left:40%;
+      font-size:20px ;
+      font-weight: 700;
+      
+      
+      
+      }
+
+
+      .input1{
+        margin-top:2% ;
+       border:1px solid #E6E6E6 ;
+       height: 28px;
+       width:80% ;
+       border-radius:20px ;
+       text-align: center;
+       position: relative;
+       padding-top: 10px;
+
+       margin-left:10% ;
+       }
+       
+
+       .input2{
+        margin-top:1% ;
+          border:1px solid #E6E6E6 ;
+          height: 20px;
+          width:75% ;
+         text-align: center;
+          position: relative;
+            padding:10px ;
+        border-radius:20px ;
+        margin-left:10% ;
+        }
+
+        .rollbox{
+          display: flex;
+          justify-content: space-evenly;
+        border:1px solid green ;
+        height: 40px;
+        width: 50%;
+        padding-top:20px ;
+        border: none;
+        margin-left:21% ;
+        
+        }
+
+        .input3{
+    margin-left:12%;
+          border:1px solid #E6E6E6 ;
+          height: 20px;
+          width:75% ;
+         text-align: center;
+          position: relative;
+            padding:10px ;
+        border-radius:20px ;
+        
+        background-color: 
+        rgb(29, 155, 240);
+        }
+
+
+  
+        .create1{
+          margin-left: 15%;
+          border:1px solid blue ;
+          width:75% ;
+          height:40px ;
+          border: none;
+        }
+
+        .haveaccount{
+          margin-left: 15%;
+          border:1px solid transparent ;
+          width:100% ;
+          height:100px ;
+          margin-top: 20px;
+          border: none;
+          }
+
+
+          .input4{
+
+            border:1px solid #E6E6E6 ;
+            height: 20px;
+            width:74% ;
+           text-align: center;
+            position: relative;
+              padding:10px ;
+          border-radius:20px ;
+          margin-top:20px ;
+          
+          
+          }
+
+          .footer{
+            padding: 8px;
+            margin-top:40px;
+          border: none;
+          border:2px solid transparent;
+          width:100% ;
+          height:150px ;
+          
+          
+          
+          
+          }
+
+          .footer1{
+  
+  
+            font-size:15px ;
+            
+            
+            }
+
+            .footer2{
+              font-size:15px ;
+              
+            
+            }
+
+
+            .modal{
+  
+              top: 0;
+              width:100%;
+              height:100vh;
+              position: absolute;
+              background-color:rgba(0, 0, 0, 0.1);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              z-index: 1;
+              display: none;
+              overflow-x: hidden;
+            
+        
+            }
+           
+            
+
+            .modalcontent{
+              position: absolute;
+              width:110%;
+              height:100vh;
+            
+              border-radius: 20px;
+              
+              overflow-x: hidden;
+              overflow-y: hidden;
+              
+              
+            
+              
+                }
+            
+
+                #modalinput1{
+                  height:50px;
+                  width:290px;
+                position: absolute;
+                margin-top:30%;
+                 margin-right:20% ;
+                  
+                  
+                
+          
+          
+                }
+
+                #modalinput2{
+                  height: 50px;
+                  position: absolute;
+                  margin-top:45% ;
+                  
+                  width:290px;
+                  border-radius:5px;
+                  outline-color: #1A8CD8;
+                   padding-left: 30px;
+                }
+
+
+                .date{
+                  font-weight: 700;
+                  font-size: 15px;
+                  margin-left:10%;
+               position: absolute;
+               margin-top:60% ;
+          
+                }
+
+
+
+                .datetext1{
+                  font-weight: 400;
+                  font-size:12px;
+                  margin-left:10% ;
+                 position: absolute;
+                 margin-top:65% ;
+                 
+                }
+              
+
+
+                .dateoption{
+                  bottom: 0;
+                 position: absolute;
+                 border: 2px solid transparent;
+                 height:200px;
+                 width:300px;
+                 margin-left: 12%;
+                 border: non;
+                 margin-top: -50%;
+                overflow-y: hidden;
+      }
+
+
+
+
+
+
+      .modal2{
+
+        top: 0;
+        width:100%;
+        height:100vh;
+        position: absolute;
+        background-color:rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        display: none;
+        overflow-x: hidden;
+      }
+
+
+
+
+      .modalcontent2{
+
+        position: absolute;
+        width:100%;
+        height:100vh;
+        background-color: #fff;
+        border-radius: 20px;
+        
+        overflow-x: hidden;
+        
+        
+        
+        position: absolute;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      
+      }
+
+
+
+
+      .inputmodal2{
+        margin-left:15%;
+         margin-top:30% ;
+         border:1px solid #E6E6E6 ;
+         height: 28px;
+         width:75% ;
+         border-radius:20px ;
+         text-align: center;
+         position: relative;
+         padding-top: 10px;
+     
+     
+        }
+
+
+        .input2modal2{
+          margin-left: 15%;
+          margin-top:5% ;
+          border:1px solid #E6E6E6 ;
+          height: 20px;
+          width:70% ;
+         text-align: center;
+          position: relative;
+            padding:10px ;
+        border-radius:20px ;
+      
+        
+        }
+        
+
+
+
+
+
+        
+
+         .inputtextmodal2{
+          border-radius: 5px;
+          height:40px;
+          width:70%;
+        position: absolute;
+        margin-left:15%;
+        outline-color: #1A8CD8;
+        border: 1px solid  #CFD9DE ;
+        padding-left: 30px;
+        margin-top: -20px;
+        }
+
+
+        .rollbox2{
+          display: flex;
+          justify-content: space-evenly;
+        border:1px solid green ;
+        height: 40px;
+        width: 50%;
+        padding-top:20px ;
+        border: none;
+        margin-left:30%;
+        
+        
+        }
+        
+        .rollbox2{
+
+        margin-right:20%;
+
+
+        }
+
+  .btnmodal2{
+    margin-top:10%;
+  margin-left:15%;
+
+  }
+
+
+  .btnmodal3{
+  margin-top:25%;
+
+
+  }
+
+
+
+
+
+  .google2logomodal2{
+  
+   margin-right: 20%;
+    
+     margin-top:-17px ;
+    font-size:14px ;
+    
+    
+  
+  
+  }
+
+
+  .google1{
+  margin-left: 10%;
+  font-size: 12px;
+  font-weight: 700;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+
+  }
+
+.google{
+  font-size: 12px;
+  font-weight: 700;
+
+margin-left:10% ;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+
+   }
+ 
+
+  
+
